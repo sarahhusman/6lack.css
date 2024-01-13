@@ -3,114 +3,113 @@
     <head>
         <title>6LACK | ALBUMS </title>
         <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="main-nav nav">
                 <ul>
                     <li> <a href="Homepage.html">HOME</a></li>
                     <li><a href="Albums.html">STORE</a></li>
                     <li><a href="About6lack.html">ABOUT</a></li>
                 </ul>
             </nav>
-            <hr>
 
-            <h1>6LACK</h1>
+            <h1 class="artist-name artist-name-large">6LACK</h1>
         </header>
-        <section>
-        <h2>ALBUMS</h2>
-        <div>
-            <div>
-                <strong>FREE 6LACK</strong>
-            </div>
-            <img src="6lackimgs/FREE 6LACK.jpg">
-            <br>
-            <div>
-                <span>$14.28</span>
-                <button role="button">ADD TO  CART</button>
+        <section class="container content-section">
+        <h2 class="section-header">ALBUMS</h2>
+        <div class="shop-items">
+        <div class="shop-item">
+                <span class="shop-item-title">FREE 6LACK</span>
+            <img class="shop-item-image" src="6lackimgs/FREE 6LACK.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$14.28</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO  CART</button>
             </div>
         </div>
 
-        <div>
-            <div>
-                <strong>FREE 6LACK</strong>
-            </div>
-            <img src="6lackimgs/EALL2.jpg">
-            <br>
-            <div>
-                <span>$15</span>
-                <button role="button">ADD TO  CART</button>
-            </div>
-
-        </div>
-
-        <div>
-            <div>
-                <strong>FREE 6LACK</strong>
-            </div>
-            <img src="6lackimgs/SIHAL2.jpg">
-            <br>
-            <div>
-                <span>$16.58</span>
-                <button role="button">ADD TO  CART</button>
+            <div class="shop-item">
+                <span class="shop-item-title">EALL</span>
+            <img class="shop-item-image" src="6lackimgs/EALL2.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$15</span>
+                <button class="btn btn-primary shop-item-button" typpe="button">ADD TO  CART</button>
             </div>
         </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">SIHAL</span>
+            <img class="shop-item-image" src="6lackimgs/SIHAL2.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$16.58</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO  CART</button>
+            </div>
+        </div>
+    </div>
         </section>
 
-        <section>
-        <h2>CART</h2> 
-        <div>
-            <strong>ITEM</strong>
-            &lt;&gt;
-            <strong>PRICE</strong>
-            &lt;&gt;
-            <strong>QUANTIY</strong>
+        <section class="container content-section">
+        <h2 class="section-header">CART</h2> 
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTIY</span>
+        </div>
 
-            <div>
-                <img src="6lackimgs/FREE 6LACK.jpg" width="100" height="100">
-                <span>FREE 6LACK</span>
-                &lt;&gt;
-                <span>$14.28</span>
-                &lt;&gt;
-                <input type="number" value="1">
-                <button role="button">DELETE</button>
+<div class="cart-tems">
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+                <img class="cart-item-image" src="6lackimgs/FREE 6LACK.jpg" width="100" height="100">
+                <span class="cart-item-title">FREE 6LACK</span>
             </div>
 
-            <div>
-                <img src="6lackimgs/EALL2.jpg" width="100" height="100">
-                <span>FREE 6LACK</span>
-                &lt;&gt;
-                <span>$15</span>
-                &lt;&gt;
-                <input type="number" value="2">
-                <button role="button">DELETE</button>
-            </div>
-
-            <div>
-                <img src="6lackimgs/SIHAL2.jpg" width="100" height="100">
-                <span>FREE 6LACK</span>
-                &lt;&gt;
-                <span>$16.58</span>
-                &lt;&gt;
-                <input type="number" value="3">
-                <button role="button">DELETE</button>
-            </div>
-            <hr>
-
-            <div>
-                <strong>TOTAL</strong>
-                <span>$45.86</span>
-            </div>
-            <div>
-                <button type="button">PURCHASE</button>
+                <span class="cart-price cart-column">$14.28</span>
+            <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="1">
+                <button class="btn btn-danger" type="button">DELETE</button>
             </div>
         </div>
+
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+                <img class="cart-item-image" src="6lackimgs/EALL2.jpg" width="100" height="100">
+                <span class="cart-item-title">EALL</span>
+            </div>
+
+                <span class="cart-price cart-column">$15</span>
+            <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="2">
+                <button class="btn btn-danger" role="button">DELETE</button>
+            </div>
+        </div>
+
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+                <img class="cart-item-image" src="6lackimgs/SIHAL2.jpg" width="100" height="100">
+                <span class="cart-item-title">SIHAL</span>
+            </div>
+
+                <span class="cart-price cart-column">$16.58</span>
+        <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="3">
+            <button class="btn btn-danger" type="button">DELETE</button>
+        </div>
+    </div>
+</div>
+
+            <div class="cart-total">
+                <strong class="cart-total-title">TOTAL</strong>
+                <span class="cart-total-price">$45.86</span>
+            </div>
+                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
         </section>
 
 
-        <footer>
-            <h3>6LACK</h3>
-            <ul>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+            <h3 class="artist-name">6LACK</h3>
+            <ul class="nav footer-nav">
                 <li>
                     <a href="https://youtube.com/@6LACKOfficial" target="_blank">
                         <img src="6lackimgs/YOUTUBE LOGO 222.png" width="30">
@@ -129,6 +128,7 @@
                 </a>
                 </li>
             </ul>
+        </div>
         </footer>
     </body>
 </html>
